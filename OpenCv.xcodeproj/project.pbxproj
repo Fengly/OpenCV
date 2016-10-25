@@ -7,14 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AC2C44FF4A2F09D6B4677B4 /* libPods-OpenCvTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5934A450B2AABDFEE26318E /* libPods-OpenCvTests.a */; };
+		B82E098B08E75E3904D5C9DC /* libPods-OpenCv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DB6C7A1278D793D0B59B1D /* libPods-OpenCv.a */; };
+		E4AEA65E3263C86DA051357B /* libPods-OpenCvUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEC59ED14CB61603B35B908 /* libPods-OpenCvUITests.a */; };
 		FF0BCF121DB2372A0089A2FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BCF111DB2372A0089A2FF /* main.m */; };
 		FF0BCF151DB2372A0089A2FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BCF141DB2372A0089A2FF /* AppDelegate.m */; };
-		FF0BCF181DB2372A0089A2FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BCF171DB2372A0089A2FF /* ViewController.m */; };
 		FF0BCF1B1DB2372A0089A2FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0BCF191DB2372A0089A2FF /* Main.storyboard */; };
 		FF0BCF1D1DB2372A0089A2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0BCF1C1DB2372A0089A2FF /* Assets.xcassets */; };
 		FF0BCF201DB2372A0089A2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0BCF1E1DB2372A0089A2FF /* LaunchScreen.storyboard */; };
 		FF0BCF2B1DB2372A0089A2FF /* OpenCvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BCF2A1DB2372A0089A2FF /* OpenCvTests.m */; };
 		FF0BCF361DB2372A0089A2FF /* OpenCvUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0BCF351DB2372A0089A2FF /* OpenCvUITests.m */; };
+		FF2564D91DB897DC00A67D7F /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF2564D81DB897DC00A67D7F /* RootViewController.mm */; };
+		FF31870B1DB6051D00F98F15 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF31870A1DB6051D00F98F15 /* 9.jpg */; };
+		FF31870D1DB605D600F98F15 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF31870C1DB605D600F98F15 /* 10.jpg */; };
+		FF31870F1DB6068000F98F15 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF31870E1DB6068000F98F15 /* 11.jpg */; };
+		FF3187111DB61B4300F98F15 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF3187101DB61B4300F98F15 /* Untitled.gif */; };
+		FF3CA1841DB468600041CAF2 /* pj8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF3CA1831DB468600041CAF2 /* pj8.jpg */; };
+		FF3CA1861DB4693E0041CAF2 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF3CA1851DB4693E0041CAF2 /* 6.jpg */; };
+		FF3CA1CA1DB473140041CAF2 /* OpenCV_image_handel.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF3CA1C91DB473140041CAF2 /* OpenCV_image_handel.mm */; };
+		FF3CA1CD1DB477200041CAF2 /* RegularExpressions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3CA1CC1DB477200041CAF2 /* RegularExpressions.m */; };
+		FF3F78701DBAF7C900003314 /* 6_S.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3F786F1DBAF7C900003314 /* 6_S.png */; };
+		FF3F78721DBAFDB300003314 /* sss.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3F78711DBAFDB300003314 /* sss.png */; };
+		FF42F7B01DB4B7D40025B1CE /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = FF42F7AF1DB4B7D40025B1CE /* haarcascade_frontalface_alt.xml */; };
+		FF4B44351DBEF260004BE03B /* 55.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4B44341DBEF260004BE03B /* 55.png */; };
+		FF4B443C1DBF0B7B004BE03B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4B44391DBF0B7B004BE03B /* 1.jpg */; };
+		FF4B443D1DBF0B7B004BE03B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4B443A1DBF0B7B004BE03B /* 2.jpg */; };
+		FF4B443E1DBF0B7B004BE03B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4B443B1DBF0B7B004BE03B /* 3.jpg */; };
+		FF4B44411DBF0C1C004BE03B /* ImageStitchingViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF4B44401DBF0C1C004BE03B /* ImageStitchingViewController.mm */; };
+		FF4B44431DBF326D004BE03B /* xmm.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4B44421DBF326D004BE03B /* xmm.png */; };
+		FF5214AD1DBDDF1F006913C0 /* RemappingViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF5214AC1DBDDF1F006913C0 /* RemappingViewController.mm */; };
+		FF5214AF1DBDE6A6006913C0 /* Untitledre.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF5214AE1DBDE6A6006913C0 /* Untitledre.gif */; };
+		FF5214B51DBDF4AB006913C0 /* SobelViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF5214B41DBDF4AB006913C0 /* SobelViewController.mm */; };
+		FF5214B81DBDF808006913C0 /* HoughCirclesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF5214B71DBDF808006913C0 /* HoughCirclesViewController.mm */; };
+		FF5214BA1DBDF8F1006913C0 /* w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214B91DBDF8F1006913C0 /* w.jpg */; };
+		FF5214BC1DBDF95C006913C0 /* ww.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214BB1DBDF95C006913C0 /* ww.jpg */; };
+		FF5214C01DBDF9C5006913C0 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214BD1DBDF9C5006913C0 /* timg.jpeg */; };
+		FF5214C11DBDF9C5006913C0 /* 2772119_101439004_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214BE1DBDF9C5006913C0 /* 2772119_101439004_2.jpg */; };
+		FF5214C21DBDF9C5006913C0 /* www.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214BF1DBDF9C5006913C0 /* www.jpg */; };
+		FF5214C41DBDFAC2006913C0 /* u=1453643368,374905603&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214C31DBDFAC2006913C0 /* u=1453643368,374905603&fm=21&gp=0.jpg */; };
+		FF5214C61DBDFAF6006913C0 /* u=292611436,1459964882&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214C51DBDFAF6006913C0 /* u=292611436,1459964882&fm=21&gp=0.jpg */; };
+		FF5214C91DBE04D1006913C0 /* ImageSynthesisViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF5214C81DBE04D1006913C0 /* ImageSynthesisViewController.mm */; };
+		FF5214CB1DBE067D006913C0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5214CA1DBE067D006913C0 /* logo.png */; };
+		FF5214CD1DBE0E3A006913C0 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5214CC1DBE0E3A006913C0 /* c.png */; };
+		FF5214CF1DBE0EEB006913C0 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5214CE1DBE0EEB006913C0 /* d.png */; };
+		FF5214D11DBE0FB2006913C0 /* u=3925236349,1595122629&fm=21&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5214D01DBE0FB2006913C0 /* u=3925236349,1595122629&fm=21&gp=0.jpg */; };
+		FF5214D31DBE1040006913C0 /* h.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5214D21DBE1040006913C0 /* h.png */; };
+		FF5214D51DBE12E9006913C0 /* j.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5214D41DBE12E9006913C0 /* j.png */; };
+		FF6859891DB4D03700A60B33 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF6859881DB4D03700A60B33 /* 8.jpg */; };
+		FF68598C1DB4D57F00A60B33 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF68598A1DB4D57F00A60B33 /* a.jpg */; };
+		FF68598D1DB4D57F00A60B33 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF68598B1DB4D57F00A60B33 /* b.jpg */; };
+		FF75149D1DB9AF29001D0569 /* Untitled2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF75149C1DB9AF29001D0569 /* Untitled2.gif */; };
+		FF7514A01DB9BB3E001D0569 /* ErosionAndDilationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF75149F1DB9BB3E001D0569 /* ErosionAndDilationViewController.mm */; };
+		FF7514A21DB9F757001D0569 /* Untitled3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF7514A11DB9F757001D0569 /* Untitled3.gif */; };
+		FF7514A51DBA02CE001D0569 /* MorphologyExViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF7514A41DBA02CE001D0569 /* MorphologyExViewController.mm */; };
+		FF7514A71DBA16ED001D0569 /* Untitled55.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF7514A61DBA16ED001D0569 /* Untitled55.gif */; };
+		FF7514AA1DBA1E19001D0569 /* HistogramViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF7514A91DBA1E19001D0569 /* HistogramViewController.mm */; };
+		FF8F24FC1DB8AE0C00F1245F /* ImgprocViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF8F24FB1DB8AE0C00F1245F /* ImgprocViewController.mm */; };
+		FFB822F81DBB333B003B6715 /* ThresholdViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFB822F71DBB333B003B6715 /* ThresholdViewController.mm */; };
+		FFB822FC1DBB3B38003B6715 /* Untitled_T.gif in Resources */ = {isa = PBXBuildFile; fileRef = FFB822FB1DBB3B38003B6715 /* Untitled_T.gif */; };
+		FFB822FF1DBB4BB6003B6715 /* CopyMakeBorderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFB822FE1DBB4BB6003B6715 /* CopyMakeBorderViewController.mm */; };
+		FFB823031DBB5DF0003B6715 /* Untitled_CMB.gif in Resources */ = {isa = PBXBuildFile; fileRef = FFB823021DBB5DF0003B6715 /* Untitled_CMB.gif */; };
+		FFB823061DBB5F0C003B6715 /* Filter2DViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFB823051DBB5F0C003B6715 /* Filter2DViewController.mm */; };
+		FFB823081DBB6043003B6715 /* mm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFB823071DBB6043003B6715 /* mm.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +89,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4A91B602EE6D7AAE992862 /* Pods-OpenCvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCvUITests/Pods-OpenCvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58CB9AC3DA482B9D79FEFD4D /* Pods-OpenCvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCvTests/Pods-OpenCvTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EEC59ED14CB61603B35B908 /* libPods-OpenCvUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCvUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CED883353153A16CC74180 /* Pods-OpenCvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCvTests/Pods-OpenCvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66DB6C7A1278D793D0B59B1D /* libPods-OpenCv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCv.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5934A450B2AABDFEE26318E /* libPods-OpenCvTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCvTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D973D96D9E615236204A9DAA /* Pods-OpenCvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCvUITests/Pods-OpenCvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4E06CA9B4F169E63E2DB4EB /* Pods-OpenCv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCv.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCv/Pods-OpenCv.release.xcconfig"; sourceTree = "<group>"; };
+		F4526F980B97482BBE0D2B50 /* Pods-OpenCv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCv/Pods-OpenCv.debug.xcconfig"; sourceTree = "<group>"; };
 		FF0BCF0D1DB2372A0089A2FF /* OpenCv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0BCF111DB2372A0089A2FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF0BCF131DB2372A0089A2FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF0BCF141DB2372A0089A2FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF0BCF161DB2372A0089A2FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF0BCF171DB2372A0089A2FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF0BCF171DB2372A0089A2FF /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		FF0BCF1A1DB2372A0089A2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF0BCF1C1DB2372A0089A2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0BCF1F1DB2372A0089A2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +114,73 @@
 		FF0BCF311DB2372A0089A2FF /* OpenCvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0BCF351DB2372A0089A2FF /* OpenCvUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCvUITests.m; sourceTree = "<group>"; };
 		FF0BCF371DB2372A0089A2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2564D71DB897DC00A67D7F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FF2564D81DB897DC00A67D7F /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		FF31870A1DB6051D00F98F15 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		FF31870C1DB605D600F98F15 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		FF31870E1DB6068000F98F15 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		FF3187101DB61B4300F98F15 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
+		FF3CA1831DB468600041CAF2 /* pj8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pj8.jpg; sourceTree = "<group>"; };
+		FF3CA1851DB4693E0041CAF2 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		FF3CA1C81DB473140041CAF2 /* OpenCV_image_handel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCV_image_handel.h; sourceTree = "<group>"; };
+		FF3CA1C91DB473140041CAF2 /* OpenCV_image_handel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCV_image_handel.mm; sourceTree = "<group>"; };
+		FF3CA1CB1DB477200041CAF2 /* RegularExpressions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressions.h; sourceTree = "<group>"; };
+		FF3CA1CC1DB477200041CAF2 /* RegularExpressions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressions.m; sourceTree = "<group>"; };
+		FF3F786F1DBAF7C900003314 /* 6_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_S.png; sourceTree = "<group>"; };
+		FF3F78711DBAFDB300003314 /* sss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sss.png; sourceTree = "<group>"; };
+		FF42F7AF1DB4B7D40025B1CE /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		FF4B44341DBEF260004BE03B /* 55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 55.png; sourceTree = "<group>"; };
+		FF4B44391DBF0B7B004BE03B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FF4B443A1DBF0B7B004BE03B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FF4B443B1DBF0B7B004BE03B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FF4B443F1DBF0C1C004BE03B /* ImageStitchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStitchingViewController.h; sourceTree = "<group>"; };
+		FF4B44401DBF0C1C004BE03B /* ImageStitchingViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageStitchingViewController.mm; sourceTree = "<group>"; };
+		FF4B44421DBF326D004BE03B /* xmm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmm.png; sourceTree = "<group>"; };
+		FF5214AB1DBDDF1F006913C0 /* RemappingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemappingViewController.h; sourceTree = "<group>"; };
+		FF5214AC1DBDDF1F006913C0 /* RemappingViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RemappingViewController.mm; sourceTree = "<group>"; };
+		FF5214AE1DBDE6A6006913C0 /* Untitledre.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitledre.gif; sourceTree = "<group>"; };
+		FF5214B31DBDF4AB006913C0 /* SobelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobelViewController.h; sourceTree = "<group>"; };
+		FF5214B41DBDF4AB006913C0 /* SobelViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SobelViewController.mm; sourceTree = "<group>"; };
+		FF5214B61DBDF808006913C0 /* HoughCirclesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoughCirclesViewController.h; sourceTree = "<group>"; };
+		FF5214B71DBDF808006913C0 /* HoughCirclesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HoughCirclesViewController.mm; sourceTree = "<group>"; };
+		FF5214B91DBDF8F1006913C0 /* w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w.jpg; sourceTree = "<group>"; };
+		FF5214BB1DBDF95C006913C0 /* ww.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ww.jpg; sourceTree = "<group>"; };
+		FF5214BD1DBDF9C5006913C0 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		FF5214BE1DBDF9C5006913C0 /* 2772119_101439004_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2772119_101439004_2.jpg; sourceTree = "<group>"; };
+		FF5214BF1DBDF9C5006913C0 /* www.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = www.jpg; sourceTree = "<group>"; };
+		FF5214C31DBDFAC2006913C0 /* u=1453643368,374905603&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=1453643368,374905603&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
+		FF5214C51DBDFAF6006913C0 /* u=292611436,1459964882&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=292611436,1459964882&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
+		FF5214C71DBE04D1006913C0 /* ImageSynthesisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSynthesisViewController.h; sourceTree = "<group>"; };
+		FF5214C81DBE04D1006913C0 /* ImageSynthesisViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageSynthesisViewController.mm; sourceTree = "<group>"; };
+		FF5214CA1DBE067D006913C0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FF5214CC1DBE0E3A006913C0 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		FF5214CE1DBE0EEB006913C0 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		FF5214D01DBE0FB2006913C0 /* u=3925236349,1595122629&fm=21&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=3925236349,1595122629&fm=21&gp=0.jpg"; sourceTree = "<group>"; };
+		FF5214D21DBE1040006913C0 /* h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h.png; sourceTree = "<group>"; };
+		FF5214D41DBE12E9006913C0 /* j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j.png; sourceTree = "<group>"; };
+		FF6859881DB4D03700A60B33 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		FF68598A1DB4D57F00A60B33 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		FF68598B1DB4D57F00A60B33 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+		FF75149C1DB9AF29001D0569 /* Untitled2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled2.gif; sourceTree = "<group>"; };
+		FF75149E1DB9BB3E001D0569 /* ErosionAndDilationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErosionAndDilationViewController.h; sourceTree = "<group>"; };
+		FF75149F1DB9BB3E001D0569 /* ErosionAndDilationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ErosionAndDilationViewController.mm; sourceTree = "<group>"; };
+		FF7514A11DB9F757001D0569 /* Untitled3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled3.gif; sourceTree = "<group>"; };
+		FF7514A31DBA02CE001D0569 /* MorphologyExViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorphologyExViewController.h; sourceTree = "<group>"; };
+		FF7514A41DBA02CE001D0569 /* MorphologyExViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MorphologyExViewController.mm; sourceTree = "<group>"; };
+		FF7514A61DBA16ED001D0569 /* Untitled55.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled55.gif; sourceTree = "<group>"; };
+		FF7514A81DBA1E19001D0569 /* HistogramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramViewController.h; sourceTree = "<group>"; };
+		FF7514A91DBA1E19001D0569 /* HistogramViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HistogramViewController.mm; sourceTree = "<group>"; };
+		FF8F24FA1DB8AE0C00F1245F /* ImgprocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgprocViewController.h; sourceTree = "<group>"; };
+		FF8F24FB1DB8AE0C00F1245F /* ImgprocViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImgprocViewController.mm; sourceTree = "<group>"; };
+		FFB822F61DBB333B003B6715 /* ThresholdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThresholdViewController.h; sourceTree = "<group>"; };
+		FFB822F71DBB333B003B6715 /* ThresholdViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ThresholdViewController.mm; sourceTree = "<group>"; };
+		FFB822FB1DBB3B38003B6715 /* Untitled_T.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled_T.gif; sourceTree = "<group>"; };
+		FFB822FD1DBB4BB6003B6715 /* CopyMakeBorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyMakeBorderViewController.h; sourceTree = "<group>"; };
+		FFB822FE1DBB4BB6003B6715 /* CopyMakeBorderViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CopyMakeBorderViewController.mm; sourceTree = "<group>"; };
+		FFB823021DBB5DF0003B6715 /* Untitled_CMB.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled_CMB.gif; sourceTree = "<group>"; };
+		FFB823041DBB5F0C003B6715 /* Filter2DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter2DViewController.h; sourceTree = "<group>"; };
+		FFB823051DBB5F0C003B6715 /* Filter2DViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Filter2DViewController.mm; sourceTree = "<group>"; };
+		FFB823071DBB6043003B6715 /* mm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mm.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82E098B08E75E3904D5C9DC /* libPods-OpenCv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC2C44FF4A2F09D6B4677B4 /* libPods-OpenCvTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +204,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AEA65E3263C86DA051357B /* libPods-OpenCvUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2B28AF3F8AABE9134DC5D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4526F980B97482BBE0D2B50 /* Pods-OpenCv.debug.xcconfig */,
+				E4E06CA9B4F169E63E2DB4EB /* Pods-OpenCv.release.xcconfig */,
+				62CED883353153A16CC74180 /* Pods-OpenCvTests.debug.xcconfig */,
+				58CB9AC3DA482B9D79FEFD4D /* Pods-OpenCvTests.release.xcconfig */,
+				0C4A91B602EE6D7AAE992862 /* Pods-OpenCvUITests.debug.xcconfig */,
+				D973D96D9E615236204A9DAA /* Pods-OpenCvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28CD8B7888DFCD118795309E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DB6C7A1278D793D0B59B1D /* libPods-OpenCv.a */,
+				A5934A450B2AABDFEE26318E /* libPods-OpenCvTests.a */,
+				5EEC59ED14CB61603B35B908 /* libPods-OpenCvUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF0BCF041DB2372A0089A2FF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +241,8 @@
 				FF0BCF291DB2372A0089A2FF /* OpenCvTests */,
 				FF0BCF341DB2372A0089A2FF /* OpenCvUITests */,
 				FF0BCF0E1DB2372A0089A2FF /* Products */,
+				0B2B28AF3F8AABE9134DC5D5 /* Pods */,
+				28CD8B7888DFCD118795309E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +262,78 @@
 				FF0BCF131DB2372A0089A2FF /* AppDelegate.h */,
 				FF0BCF141DB2372A0089A2FF /* AppDelegate.m */,
 				FF0BCF161DB2372A0089A2FF /* ViewController.h */,
-				FF0BCF171DB2372A0089A2FF /* ViewController.m */,
+				FF0BCF171DB2372A0089A2FF /* ViewController.mm */,
+				FF2564D71DB897DC00A67D7F /* RootViewController.h */,
+				FF2564D81DB897DC00A67D7F /* RootViewController.mm */,
+				FF8F24FA1DB8AE0C00F1245F /* ImgprocViewController.h */,
+				FF8F24FB1DB8AE0C00F1245F /* ImgprocViewController.mm */,
+				FF3CA1C81DB473140041CAF2 /* OpenCV_image_handel.h */,
+				FF3CA1C91DB473140041CAF2 /* OpenCV_image_handel.mm */,
+				FF75149E1DB9BB3E001D0569 /* ErosionAndDilationViewController.h */,
+				FF75149F1DB9BB3E001D0569 /* ErosionAndDilationViewController.mm */,
+				FF7514A31DBA02CE001D0569 /* MorphologyExViewController.h */,
+				FF7514A41DBA02CE001D0569 /* MorphologyExViewController.mm */,
+				FF7514A81DBA1E19001D0569 /* HistogramViewController.h */,
+				FF7514A91DBA1E19001D0569 /* HistogramViewController.mm */,
+				FFB822F61DBB333B003B6715 /* ThresholdViewController.h */,
+				FFB822F71DBB333B003B6715 /* ThresholdViewController.mm */,
+				FF3CA1CB1DB477200041CAF2 /* RegularExpressions.h */,
+				FF3CA1CC1DB477200041CAF2 /* RegularExpressions.m */,
+				FFB822FD1DBB4BB6003B6715 /* CopyMakeBorderViewController.h */,
+				FFB822FE1DBB4BB6003B6715 /* CopyMakeBorderViewController.mm */,
+				FFB823041DBB5F0C003B6715 /* Filter2DViewController.h */,
+				FFB823051DBB5F0C003B6715 /* Filter2DViewController.mm */,
+				FF5214AB1DBDDF1F006913C0 /* RemappingViewController.h */,
+				FF5214AC1DBDDF1F006913C0 /* RemappingViewController.mm */,
+				FF5214B31DBDF4AB006913C0 /* SobelViewController.h */,
+				FF5214B41DBDF4AB006913C0 /* SobelViewController.mm */,
+				FF5214B61DBDF808006913C0 /* HoughCirclesViewController.h */,
+				FF5214B71DBDF808006913C0 /* HoughCirclesViewController.mm */,
+				FF5214C71DBE04D1006913C0 /* ImageSynthesisViewController.h */,
+				FF5214C81DBE04D1006913C0 /* ImageSynthesisViewController.mm */,
+				FF4B443F1DBF0C1C004BE03B /* ImageStitchingViewController.h */,
+				FF4B44401DBF0C1C004BE03B /* ImageStitchingViewController.mm */,
+				FF4B44391DBF0B7B004BE03B /* 1.jpg */,
+				FF4B443A1DBF0B7B004BE03B /* 2.jpg */,
+				FF4B443B1DBF0B7B004BE03B /* 3.jpg */,
+				FF6859881DB4D03700A60B33 /* 8.jpg */,
+				FF3CA1851DB4693E0041CAF2 /* 6.jpg */,
+				FF3F786F1DBAF7C900003314 /* 6_S.png */,
+				FF5214D41DBE12E9006913C0 /* j.png */,
+				FFB823071DBB6043003B6715 /* mm.jpeg */,
+				FF4B44421DBF326D004BE03B /* xmm.png */,
+				FF68598A1DB4D57F00A60B33 /* a.jpg */,
+				FF68598B1DB4D57F00A60B33 /* b.jpg */,
+				FF4B44341DBEF260004BE03B /* 55.png */,
+				FF5214D01DBE0FB2006913C0 /* u=3925236349,1595122629&fm=21&gp=0.jpg */,
+				FF5214CC1DBE0E3A006913C0 /* c.png */,
+				FF5214CE1DBE0EEB006913C0 /* d.png */,
+				FF5214CA1DBE067D006913C0 /* logo.png */,
+				FF5214D21DBE1040006913C0 /* h.png */,
+				FF31870A1DB6051D00F98F15 /* 9.jpg */,
+				FF31870C1DB605D600F98F15 /* 10.jpg */,
+				FF31870E1DB6068000F98F15 /* 11.jpg */,
+				FF3CA1831DB468600041CAF2 /* pj8.jpg */,
+				FF3F78711DBAFDB300003314 /* sss.png */,
+				FF3187101DB61B4300F98F15 /* Untitled.gif */,
+				FF75149C1DB9AF29001D0569 /* Untitled2.gif */,
+				FF7514A11DB9F757001D0569 /* Untitled3.gif */,
+				FF7514A61DBA16ED001D0569 /* Untitled55.gif */,
+				FFB822FB1DBB3B38003B6715 /* Untitled_T.gif */,
+				FFB823021DBB5DF0003B6715 /* Untitled_CMB.gif */,
+				FF5214AE1DBDE6A6006913C0 /* Untitledre.gif */,
 				FF0BCF191DB2372A0089A2FF /* Main.storyboard */,
+				FF5214B91DBDF8F1006913C0 /* w.jpg */,
+				FF5214BB1DBDF95C006913C0 /* ww.jpg */,
+				FF5214C51DBDFAF6006913C0 /* u=292611436,1459964882&fm=21&gp=0.jpg */,
+				FF5214C31DBDFAC2006913C0 /* u=1453643368,374905603&fm=21&gp=0.jpg */,
+				FF5214BD1DBDF9C5006913C0 /* timg.jpeg */,
+				FF5214BE1DBDF9C5006913C0 /* 2772119_101439004_2.jpg */,
+				FF5214BF1DBDF9C5006913C0 /* www.jpg */,
 				FF0BCF1C1DB2372A0089A2FF /* Assets.xcassets */,
 				FF0BCF1E1DB2372A0089A2FF /* LaunchScreen.storyboard */,
 				FF0BCF211DB2372A0089A2FF /* Info.plist */,
+				FF42F7AF1DB4B7D40025B1CE /* haarcascade_frontalface_alt.xml */,
 				FF0BCF101DB2372A0089A2FF /* Supporting Files */,
 			);
 			path = OpenCv;
@@ -147,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0BCF3A1DB2372A0089A2FF /* Build configuration list for PBXNativeTarget "OpenCv" */;
 			buildPhases = (
+				0CC7B42CA1D8C67F49321064 /* 📦 Check Pods Manifest.lock */,
 				FF0BCF091DB2372A0089A2FF /* Sources */,
 				FF0BCF0A1DB2372A0089A2FF /* Frameworks */,
 				FF0BCF0B1DB2372A0089A2FF /* Resources */,
+				ABC8913066D5ADDA6F64D7E0 /* 📦 Embed Pods Frameworks */,
+				7F3333C202ECD6DCFABDB222 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +392,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0BCF3D1DB2372A0089A2FF /* Build configuration list for PBXNativeTarget "OpenCvTests" */;
 			buildPhases = (
+				AA02A1A1EBB1CCA1E37702C7 /* 📦 Check Pods Manifest.lock */,
 				FF0BCF221DB2372A0089A2FF /* Sources */,
 				FF0BCF231DB2372A0089A2FF /* Frameworks */,
 				FF0BCF241DB2372A0089A2FF /* Resources */,
+				1DF1E224F240A61C23AFC82A /* 📦 Embed Pods Frameworks */,
+				3EBF04C3D40E16A48D6B5024 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +413,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0BCF401DB2372A0089A2FF /* Build configuration list for PBXNativeTarget "OpenCvUITests" */;
 			buildPhases = (
+				5D552A82EFFF271DC99D2FF5 /* 📦 Check Pods Manifest.lock */,
 				FF0BCF2D1DB2372A0089A2FF /* Sources */,
 				FF0BCF2E1DB2372A0089A2FF /* Frameworks */,
 				FF0BCF2F1DB2372A0089A2FF /* Resources */,
+				5DD2A3279FEA73C991C783DD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +440,7 @@
 				TargetAttributes = {
 					FF0BCF0C1DB2372A0089A2FF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VSQQUFU6LF;
 						ProvisioningStyle = Automatic;
 					};
 					FF0BCF251DB2372A0089A2FF = {
@@ -246,9 +480,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4B443C1DBF0B7B004BE03B /* 1.jpg in Resources */,
+				FF6859891DB4D03700A60B33 /* 8.jpg in Resources */,
+				FF5214C41DBDFAC2006913C0 /* u=1453643368,374905603&fm=21&gp=0.jpg in Resources */,
+				FF3CA1841DB468600041CAF2 /* pj8.jpg in Resources */,
+				FF4B44431DBF326D004BE03B /* xmm.png in Resources */,
 				FF0BCF201DB2372A0089A2FF /* LaunchScreen.storyboard in Resources */,
+				FF5214BC1DBDF95C006913C0 /* ww.jpg in Resources */,
+				FF31870F1DB6068000F98F15 /* 11.jpg in Resources */,
+				FF31870D1DB605D600F98F15 /* 10.jpg in Resources */,
+				FF4B44351DBEF260004BE03B /* 55.png in Resources */,
+				FF7514A71DBA16ED001D0569 /* Untitled55.gif in Resources */,
+				FFB823031DBB5DF0003B6715 /* Untitled_CMB.gif in Resources */,
+				FF31870B1DB6051D00F98F15 /* 9.jpg in Resources */,
+				FF5214C11DBDF9C5006913C0 /* 2772119_101439004_2.jpg in Resources */,
+				FF68598D1DB4D57F00A60B33 /* b.jpg in Resources */,
+				FF5214C01DBDF9C5006913C0 /* timg.jpeg in Resources */,
+				FF3F78701DBAF7C900003314 /* 6_S.png in Resources */,
+				FF5214D11DBE0FB2006913C0 /* u=3925236349,1595122629&fm=21&gp=0.jpg in Resources */,
+				FFB822FC1DBB3B38003B6715 /* Untitled_T.gif in Resources */,
+				FF7514A21DB9F757001D0569 /* Untitled3.gif in Resources */,
 				FF0BCF1D1DB2372A0089A2FF /* Assets.xcassets in Resources */,
+				FF75149D1DB9AF29001D0569 /* Untitled2.gif in Resources */,
 				FF0BCF1B1DB2372A0089A2FF /* Main.storyboard in Resources */,
+				FF68598C1DB4D57F00A60B33 /* a.jpg in Resources */,
+				FF5214BA1DBDF8F1006913C0 /* w.jpg in Resources */,
+				FF5214D31DBE1040006913C0 /* h.png in Resources */,
+				FF5214AF1DBDE6A6006913C0 /* Untitledre.gif in Resources */,
+				FF5214C21DBDF9C5006913C0 /* www.jpg in Resources */,
+				FF5214CF1DBE0EEB006913C0 /* d.png in Resources */,
+				FF4B443D1DBF0B7B004BE03B /* 2.jpg in Resources */,
+				FF5214CD1DBE0E3A006913C0 /* c.png in Resources */,
+				FF4B443E1DBF0B7B004BE03B /* 3.jpg in Resources */,
+				FF42F7B01DB4B7D40025B1CE /* haarcascade_frontalface_alt.xml in Resources */,
+				FF3187111DB61B4300F98F15 /* Untitled.gif in Resources */,
+				FF3CA1861DB4693E0041CAF2 /* 6.jpg in Resources */,
+				FF5214D51DBE12E9006913C0 /* j.png in Resources */,
+				FF5214CB1DBE067D006913C0 /* logo.png in Resources */,
+				FFB823081DBB6043003B6715 /* mm.jpeg in Resources */,
+				FF5214C61DBDFAF6006913C0 /* u=292611436,1459964882&fm=21&gp=0.jpg in Resources */,
+				FF3F78721DBAFDB300003314 /* sss.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +539,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC7B42CA1D8C67F49321064 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF1E224F240A61C23AFC82A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCvTests/Pods-OpenCvTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EBF04C3D40E16A48D6B5024 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCvTests/Pods-OpenCvTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D552A82EFFF271DC99D2FF5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD2A3279FEA73C991C783DD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCvUITests/Pods-OpenCvUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3333C202ECD6DCFABDB222 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCv/Pods-OpenCv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA02A1A1EBB1CCA1E37702C7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC8913066D5ADDA6F64D7E0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/myfile",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCv/Pods-OpenCv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF0BCF091DB2372A0089A2FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0BCF181DB2372A0089A2FF /* ViewController.m in Sources */,
+				FF3CA1CA1DB473140041CAF2 /* OpenCV_image_handel.mm in Sources */,
+				FF7514AA1DBA1E19001D0569 /* HistogramViewController.mm in Sources */,
+				FFB823061DBB5F0C003B6715 /* Filter2DViewController.mm in Sources */,
+				FF4B44411DBF0C1C004BE03B /* ImageStitchingViewController.mm in Sources */,
+				FF3CA1CD1DB477200041CAF2 /* RegularExpressions.m in Sources */,
 				FF0BCF151DB2372A0089A2FF /* AppDelegate.m in Sources */,
+				FF5214C91DBE04D1006913C0 /* ImageSynthesisViewController.mm in Sources */,
+				FF7514A51DBA02CE001D0569 /* MorphologyExViewController.mm in Sources */,
+				FF7514A01DB9BB3E001D0569 /* ErosionAndDilationViewController.mm in Sources */,
+				FF5214AD1DBDDF1F006913C0 /* RemappingViewController.mm in Sources */,
 				FF0BCF121DB2372A0089A2FF /* main.m in Sources */,
+				FFB822FF1DBB4BB6003B6715 /* CopyMakeBorderViewController.mm in Sources */,
+				FF8F24FC1DB8AE0C00F1245F /* ImgprocViewController.mm in Sources */,
+				FFB822F81DBB333B003B6715 /* ThresholdViewController.mm in Sources */,
+				FF5214B81DBDF808006913C0 /* HoughCirclesViewController.mm in Sources */,
+				FF5214B51DBDF4AB006913C0 /* SobelViewController.mm in Sources */,
+				FF2564D91DB897DC00A67D7F /* RootViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,28 +831,39 @@
 		};
 		FF0BCF3B1DB2372A0089A2FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4526F980B97482BBE0D2B50 /* Pods-OpenCv.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VSQQUFU6LF;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenCv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Riches.OpenCv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		FF0BCF3C1DB2372A0089A2FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E06CA9B4F169E63E2DB4EB /* Pods-OpenCv.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VSQQUFU6LF;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenCv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Riches.OpenCv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		FF0BCF3E1DB2372A0089A2FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CED883353153A16CC74180 /* Pods-OpenCvTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OpenCvTests/Info.plist;
@@ -456,6 +876,7 @@
 		};
 		FF0BCF3F1DB2372A0089A2FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CB9AC3DA482B9D79FEFD4D /* Pods-OpenCvTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OpenCvTests/Info.plist;
@@ -468,6 +889,7 @@
 		};
 		FF0BCF411DB2372A0089A2FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4A91B602EE6D7AAE992862 /* Pods-OpenCvUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OpenCvUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +901,7 @@
 		};
 		FF0BCF421DB2372A0089A2FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D973D96D9E615236204A9DAA /* Pods-OpenCvUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OpenCvUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +930,7 @@
 				FF0BCF3C1DB2372A0089A2FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF0BCF3D1DB2372A0089A2FF /* Build configuration list for PBXNativeTarget "OpenCvTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +939,7 @@
 				FF0BCF3F1DB2372A0089A2FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF0BCF401DB2372A0089A2FF /* Build configuration list for PBXNativeTarget "OpenCvUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +948,7 @@
 				FF0BCF421DB2372A0089A2FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
